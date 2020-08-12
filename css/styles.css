@@ -1,0 +1,146 @@
+/*********************HTML TAGS**********************/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*16px = 100% = 1em [90px = 562.5% = 5.625em] rem=Ignore parent settings*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  margin: auto 20px auto;
+  text-decoration-line: none;
+}
+
+hr {
+  width: 3.5%;
+  border-style: dotted none none;
+  border-color: Gainsboro;
+  border-width: 5px;
+}
+
+/*********************CLASS TAGS*********************/
+
+.bottom-cloud {
+  left: 300px;
+  position: absolute;
+}
+
+.bottom-container {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  line-height: 2;
+  background-color: #66BFBF;
+  color: #EAF6F6;
+}
+
+.contact-button {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding: 10px 32px;
+  margin-top: 30px;
+	text-decoration:none;
+}
+.contact-button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.contact-button:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me {
+  line-height: 2;
+  padding: 20px 0 100px;
+  margin: 50px auto;
+}
+
+.contact-header {
+  margin: 0;
+}
+
+.contact-sub {
+  margin: 20px auto 30px;
+}
+
+.middle-container {
+  padding: 20px 0 0;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  padding: 40px 0 30px;
+}
+
+.profile-desc {
+  padding-left: 25%;
+  width: 50%;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 180px;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-1 {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 180px;
+}
+
+.skill-2 {
+  float: right;
+  margin-right: 30px;
+  width: 180px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
